@@ -1,0 +1,47 @@
+/* content */
+.content {
+  padding: 60px 30px;
+  color: #ffffff;
+}
+
+.content-background {
+  position: absolute;
+  width: 263px;
+  height: 263px;
+  top: 300px;
+  right: -131.5px;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .content-background > img {
+    animation: logo-spin infinite 3s linear;
+  }
+}
+
+.content-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.content-list {
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+.content-list > li {
+  padding-block: 6px;
+}
+
+.content-list > li::marker {
+  color: #61dafbaa;
+  font-size: 1.4rem;
+}

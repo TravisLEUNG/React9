@@ -1,0 +1,22 @@
+/* nav */
+nav {
+  height: 90px;
+
+  background: #21222a;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 25px;
+  margin: 0;
+}
+
+nav > .nav-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #61dafb;
+}
+nav > .nav-text:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
